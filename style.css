@@ -1,0 +1,250 @@
+
+
+body{
+    margin: 0;
+    width: 100%;
+    font-family: 'Circe', sans-serif;
+   
+}
+h2{
+    font-family: 'Circe Bold', sans-serif;
+    letter-spacing: 2px;
+    
+}
+*{
+    box-sizing: border-box;
+}
+.main{
+    margin: 0;
+    max-width: 1150px;
+    padding: 22px 0 70px 0;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.images{
+    display: flex;
+    margin: 0;
+}
+.imagas_all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.product_category{
+    display: flex;
+    gap: 50px;   
+    flex-wrap: wrap; 
+
+    
+}
+
+.product_category a{
+    text-decoration: none;
+    color: #006be5;
+    font-size: 14px;
+}
+
+.product{
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.product_price{
+    font-size: 15px;
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+    max-width: 400px;
+}
+.product_price_old{
+    text-decoration:line-through ;
+    color: #bfbebe;
+    
+}
+.product_price_actual{
+    margin-left: 10px;
+    color: #7c7c7c;
+}
+.product_price_promo{
+    color: #141414;
+    font-weight: bold;
+}
+.product_price_promo span{
+    font-weight: 500;
+    margin-left: 5px;
+}
+.rub {
+    vertical-align: middle;
+    border-bottom: 1px solid;
+    line-height: 2px;
+    display: inline-block;
+    width: 6px;
+    
+  }
+.product_shop{
+    margin-top: 20px;
+    padding: 10px 22px ;
+    max-width: 380px;
+    font-size: 14px;
+    background-color: #f4f4f4;
+}
+.product_shop_text{
+    padding-top:5px ;
+    padding-bottom: 5px;
+}
+.product_shop a{
+    text-decoration:none ;
+}
+.product_shop img{
+    margin: 0;
+    padding: 0;
+    max-width: 20px;
+    height: 10px;
+    margin-right: 10px;   
+}
+.product_count{
+    margin-top: 30px;
+    display: flex;
+}
+.product_count button{
+    margin: 0;
+    padding:10px 15px 10px 15px;
+    font-size: 20px;
+}
+
+.product_count button:active{
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.24);
+        
+}
+.product_count_minus{
+    border: 1px solid rgb(210, 210, 210);
+    border-right: none;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+.product_count_plus{
+    border: 1px solid rgb(210, 210, 210);
+    border-left: none;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+}
+input{
+    max-width: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:15px;
+    text-align: center;
+    border: 1px solid rgb(210, 210, 210);
+    border-left: none;
+    border-right: none;
+    outline:none;
+    
+}
+
+.product_btn{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+
+}
+
+.product_btn button{
+    padding: 10px 0 10px 0;
+    min-width: 180px;
+    max-width: 180px;  
+    font-weight: bold;
+}
+
+.product_btn_buy{
+    background-color: #006be5;
+    color: white;
+    border: none
+}
+.product_btn_add{
+    background-color: white;
+    border: 1px solid #d9d9d9;
+}
+.product_info{
+    text-transform: none;
+    color: #424242;
+}
+
+.product_name, button, .product_shere{
+    text-transform: uppercase;
+}
+
+.product_info{
+    max-width: 520px;
+    margin-top: 40px;
+}
+
+.product_shere{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-top: 40px;
+    color: #424242;
+    letter-spacing: 0.5px;
+}
+.product_shere_text{
+    font-size: 17px;
+}
+
+.product_shere_icon{
+    display: flex;
+    margin-top: -5px;
+    text-decoration:none;
+    max-width: 400px;
+
+}
+.product_shere_icon a{
+    text-decoration: none;
+    margin: 0;
+    margin-left: 20px;
+    
+   
+}
+.product_shere_icon img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border: 3px solid #d9d9d9;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+
+
+
+
+.square{
+    background-image: url(square.png);
+    height: 25px;
+    width: 50px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.small_pic{
+    width: 90px;
+    height: 130px;
+}
+.back{
+    margin-top: 30px;
+  }
+  .btn_back{
+    margin: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #dce8ee;
+    border: 2px solid #4a8ea8;
+    border-radius: 10px;
+  }

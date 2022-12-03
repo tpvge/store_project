@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    width: 100%;
+    font-family: 'Circe', sans-serif;
+}
+
+.container{
+    margin-left: 20px;
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+}
+.categories{
+    width: 50%;
+    margin-left:  30px;
+}
+
+a{
+    
+    text-decoration: none;
+    font-size: 20px;
+}
+
+img{
+    max-width: 100px;
+    max-height: 100px;
+}
+span{
+    color: grey;
+}

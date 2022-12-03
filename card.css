@@ -1,0 +1,138 @@
+body{
+    background-color: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.block{
+  margin: auto;
+  margin-top: 25px;
+  max-width: 760px;
+  height: 250px;
+  background-color: #dce8ee;
+  border: 3px solid #4a8ea8;
+  border-radius:5px ;
+  margin-bottom: 10px;
+}
+.data{
+  margin: 0;
+  margin-top: 10px;
+  margin-right: 20px;
+  text-align: right;
+  font-size: 25px;
+}
+
+h1{
+  margin-left: 10px;
+  font-size: 30px;
+
+}
+
+.text{
+  margin-left: 10px;
+  margin-top: 60px;
+  font-size: 25px;
+}
+.container {
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      max-width: 1000px;
+    }
+
+.card1 {
+    display: flex;
+    max-width: 250px;
+    background-color: #269f5d;
+    font-size: 120px;
+    line-height: 2px;
+    color: white;
+    flex-direction: column;
+    flex-basis: 250px;
+    height: 300px;
+    text-align: center;
+
+    }
+
+.card2 {
+    display: flex;
+    max-width: 250px;
+    background-color: #65c2dc;
+    font-size: 120px;
+   
+    flex-direction: column;
+    flex-basis: 250px;
+    height: 300px;
+    
+}
+a{
+  text-decoration: none;
+}
+
+.card1 img{
+    width: 250px;
+    height: 202px;
+
+    
+}
+
+.card3 {
+    display: flex;
+    max-width: 250px;
+    background-color: #eebc40;
+    font-size: 120px;
+    line-height: 2px;
+    color: white;
+    flex-direction: column;
+    flex-basis: 250px;
+    height: 300px;
+    text-align: center;
+  } 
+
+  .card1_label{
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28px;
+    color: black;
+    background-color: white;
+    text-align: left ;
+    box-shadow: 2px 13px 52px -30px #000000;
+    
+  }
+
+  .card1_label p{
+    margin-left: 10px;
+    font-size: 28px;
+    color: black;
+    text-align: left ;
+  }
+
+footer{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.nav{
+  margin: auto;
+  width: 50%;
+  
+}
+.page{
+  text-align: center;
+}
+.back{
+  margin-top: 30px;
+}
+.btn_back{
+  margin: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #dce8ee;
+  border: 2px solid #4a8ea8;
+  border-radius: 10px;
+}
